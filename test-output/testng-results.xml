@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-04T04:19:01Z" name="Suite" finished-at="2018-12-04T04:19:15Z" duration-ms="14046">
+    <groups>
+    </groups>
+    <test started-at="2018-12-04T04:19:01Z" name="Test" finished-at="2018-12-04T04:19:15Z" duration-ms="14046">
+      <class name="com.test.CMcheckout">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.CMcheckout@5f058f00]" started-at="2018-12-04T04:19:01Z" name="beforeTest" finished-at="2018-12-04T04:19:04Z" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.test.CMcheckout@5f058f00]" started-at="2018-12-04T04:19:04Z" name="f" finished-at="2018-12-04T04:19:15Z" duration-ms="10976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ieguktest2018@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anh123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.CMcheckout@5f058f00]" started-at="2018-12-04T04:19:15Z" name="afterTest" finished-at="2018-12-04T04:19:15Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.CMcheckout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="sUsername" value="ieguktest2018@gmail.com"/>
+    <parameter name="sPassword" value="anh123"/>
+    <classes>
+      <class name="com.test.CMcheckout">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.CMcheckout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
